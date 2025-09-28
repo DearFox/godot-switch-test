@@ -50,7 +50,7 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get -y install python3-pip
-          sudo python3 -m pip install scons
+          sudo PIP_BREAK_SYSTEM_PACKAGES=1 python3 -m pip install scons
 
       - name: Setup GCC problem matcher
         uses: ammaraskar/gcc-problem-matcher@master

@@ -1,4 +1,4 @@
-# Godot for Switch
+# Godot for Switch test
 
 It's a port of the Godot open source game engine to the Switch, via homebrew libraries provided by devkitPro/switchbrew.
 See the original README-original.md for info about Godot.
